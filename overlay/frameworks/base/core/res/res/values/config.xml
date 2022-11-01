@@ -25,7 +25,20 @@
     <!-- If true, the screen can be rotated via the accelerometer in all 4
          rotations as the default behavior. -->
      <bool name="config_allowAllRotations">false</bool>
-
+    
+    <!-- Whether the device supports Smart Pixels -->
+    <bool name="config_enableSmartPixels">true</bool>
+    
+    <!-- Whether to show min/max refresh rate in display settings -->
+    <bool name="config_show_refresh_rate_controls">true</bool>
+    <bool name="config_supports_dynamic_refresh_rate_controls">true</bool>
+    
+    <!-- Night Light FOD -->
+    <bool name="disable_fod_night_light">true</bool>
+    
+    <!-- Pocket Lock -->
+    <bool name="config_pocketModeSupported">true</bool>
+    
     <!-- Flag indicating whether the we should enable the automatic brightness in Settings.
          Software implementation will be used if config_hardware_auto_brightness_available is not set -->
      <bool name="config_automatic_brightness_available">true</bool>
